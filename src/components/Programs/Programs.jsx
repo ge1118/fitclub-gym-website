@@ -7,24 +7,24 @@ const Programs = () => {
   return (
     <div>
       <div className="programs" id="programs">
-        <div className="programs-header">
-            <span className='stroke-text'>Explore our</span>
-            <span>Programs</span>
-            <span className='stroke-text'>To shape you</span>
+        <div className="header">
+          <span className='stroke-text'>Explore our</span>
+          <span>Programs</span>
+          <span className='stroke-text'>To shape you</span>
         </div>
 
         <div className="program-categories">
-            {programsData.map((program, i)=>(
-                <div className="category" key={i}>
-                    {program.image}
-                    <span>{program.heading}</span>
-                    <span>{program.details}</span>
-                    <div className="join-now">
-                        <span>Join Now</span>
-                        <img src={RightArrow} alt="" />
-                    </div>
-                </div>
-            ))}
+          {programsData.map((program, i) => (
+            <div className="category" key={i}>
+              {program.image}
+              <span>{program.heading}</span>
+              <span>{program.details}</span>
+              <div className="join-now">
+                <span>Join Now</span>
+                <img src={RightArrow} alt="" />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
