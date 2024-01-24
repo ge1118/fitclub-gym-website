@@ -6,7 +6,7 @@ const Plans = () => {
     return (
         <div>
             <div className="plans-container">
-                <div className="header">
+                <div className="programs-header">
                     <span className='stroke-text'>READY TO START</span>
                     <span>YOUR JOURNEY</span>
                     <span className='stroke-text'>NOW WITHUS</span>

@@ -7,7 +7,7 @@ const Programs = () => {
   return (
     <div>
       <div className="programs" id="programs">
-        <div className="header">
+        <div className="programs-header">
           <span className='stroke-text'>Explore our</span>
           <span>Programs</span>
           <span className='stroke-text'>To shape you</span>
