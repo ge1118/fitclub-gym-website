@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .left-h {
     padding: 2rem;
     padding-top: 1.5rem;
@@ -9,12 +10,15 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
+    position: relative;
 }
+
 .right-h {
     flex: 1;
     position: relative;
     background-color: var(--orange);
 }
+
 .the-best-ad {
     margin-top: 4rem;
     background-color: #363d42;
@@ -28,9 +32,11 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .the-best-ad > span {
     z-index: 2;
 }
+
 .the-best-ad > div {
     position: absolute;
     background-color: var(--orange);
@@ -39,6 +45,7 @@
     left: 8px;
     border-radius: 3rem;
 }
+
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -49,6 +56,7 @@
     color: white;
     text-overflow: inherit;
 }
+
 .hero-text > div:nth-of-type(3) {
     font-size: 1rem;
     font-weight: 200;
@@ -56,44 +64,53 @@
     letter-spacing: 1px;
     width: 80%;
 }
+
 .figures {
     display: flex;
     gap: 2rem;
 }
+
 .figures > div {
     display: flex;
     flex-direction: column;
 }
+
 .figures > div > span:nth-of-type(1) {
     color: white;
     font-size: 2rem;
 }
+
 .figures > div > span:nth-of-type(2) {
     color: var(--gray);
     text-transform: uppercase;
 }
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
     font-weight: normal;
 }
+
 .hero-buttons > :nth-child(1) {
     color: white;
     background-color: var(--orange);
     width: 8rem;
 }
+
 .hero-buttons > :nth-child(2) {
     color: white;
     background-color: transparent;
     width: 8rem;
     border: 2px solid var(--orange);
 }
+
 .right-h > .btn {
     position: absolute;
     right: 3rem;
     top: 2rem;
     color: black;
 }
+
 .heart-rate {
     display: flex;
     flex-direction: column;
@@ -107,22 +124,27 @@
     right: 4rem;
     top: 7rem;
 }
+
 .heart-rate > img {
     width: 2rem;
 }
-.heart-rate > span:nth-of-type(1){
+
+.heart-rate > span:nth-of-type(1) {
     color: var(--gray);
 }
-.heart-rate > span:nth-of-type(2){
+
+.heart-rate > span:nth-of-type(2) {
     color: white;
     font-size: 1.5rem;
 }
+
 .hero-image {
     position: absolute;
     right: 8rem;
     top: 10rem;
     width: 23rem;
 }
+
 .hero-image-back {
     position: absolute;
     top: 4rem;
@@ -130,6 +152,7 @@
     z-index: -1;
     width: 15rem;
 }
+
 .calories {
     display: flex;
     gap: 2rem;
@@ -141,18 +164,28 @@
     top: 32rem;
     right: 28rem;
 }
+
 .calories > img {
     width: 3rem;
 }
+
 .calories > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .calories > div > :nth-child(1) {
     color: var(--gray);
 }
+
 .calories > div > :nth-child(2) {
     color: white;
     font-size: 1.5rem;
+}
+
+.hero-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
 }
