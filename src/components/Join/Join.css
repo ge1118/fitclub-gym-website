@@ -24,3 +24,32 @@
     display: flex;
     gap: 1rem;
 }
+
+.right-j {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container {
+    display: flex;
+    gap: 3rem;
+    background: grey;
+    padding: 1rem 2rem;
+}
+
+.email-container > input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
+
+.btn-j {
+    background-color: var(--orange);
+    color: white;
+}
