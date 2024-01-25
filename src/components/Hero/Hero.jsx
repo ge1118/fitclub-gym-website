@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Hero.css'
 import Header from '../Header/Header'
 import hero_image from '../../assets/hero_image.png'
@@ -11,7 +11,25 @@ import CountUp from 'react-countup'
 const Hero = () => {
 
     const transition = { type: 'spring', duration: 3 }
-    const mobile = window.innerWidth <= 768 ? true : false
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768 ? true : false)
+    const divRef = useRef(null);
+    const [divWidth, setDivWidth] = useState(0);
+    const initialLeft = isMobile ? `${divWidth - 93}px` : '238px'
+
+    const updateDivWidth = () => {
+        if (divRef.current) {
+            setDivWidth(divRef.current.offsetWidth)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', updateDivWidth);
+        updateDivWidth();
+        console.log(divWidth)
+        return () => {
+            window.removeEventListener('resize', updateDivWidth);
+        }
+    }, [divWidth])
 
     return (
         <div>
@@ -22,9 +40,10 @@ const Hero = () => {
 
                     <Header />
 
-                    <div className="the-best-ad">
+                    <div ref={divRef} className="the-best-ad">
                         <motion.div
-                            initial={{ left: mobile ? '165px' : '238px' }}
+                            key={divWidth}
+                            initial={{ left: initialLeft }}
                             whileInView={{ left: '8px' }}
                             transition={{ ...transition, type: 'tween', yoyo: Infinity }}
                         ></motion.div>
