@@ -54,7 +54,7 @@ const Testimonials = () => {
 
                     <div className="arrows">
                         <img onClick={() => {
-                            selected === 0 ? setSelected(2) : setSelected((prev) => (prev) - 1)
+                            selected === 0 ? setSelected(tLength - 1) : setSelected((prev) => (prev) - 1)
                         }} src={leftArrow} alt="" />
                         <img onClick={() => {
                             selected === 2 ? setSelected(0) : setSelected((prev) => (prev) + 1)

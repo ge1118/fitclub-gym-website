@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import './Join.css'
-import emailjs, { send } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 
 const Join = () => {
 

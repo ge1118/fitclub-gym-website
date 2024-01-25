@@ -11,7 +11,7 @@ import CountUp from 'react-countup'
 const Hero = () => {
 
     const transition = { type: 'spring', duration: 3 }
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768 ? true : false)
+    const [isMobile] = useState(window.innerWidth <= 768)
     const divRef = useRef(null);
     const [divWidth, setDivWidth] = useState(0);
     const initialLeft = isMobile ? `${divWidth - 93}px` : '238px'
