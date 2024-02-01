@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# FitClub Gym Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+The FitClub Gym Website is a React.js-based project, showcasing the offerings of FitClub Gym with a modern and engaging interface. Enhanced with vanilla CSS and Framer Motion animations, the site offers a visually captivating user experience.
 
-## Available Scripts
+## Key Features
+- Hero Section: With a navigation bar, setting the stage for the entire website.
+- Programs Section: Details the various programs offered by FitClub.
+- Reasons Section: Highlights why FitClub stands out as a gym choice.
+- Plans Section: Offers different membership plans, costs, and benefits.
+- Testimonials Section: Features feedback from customers, coaches, and entrepreneurs.
+- Join Section: Allows visitors to send an email to join the gym.
 
-In the project directory, you can run:
+## Technologies
+- React.js for building the user interface.
+- Vanilla CSS for styling.
+- Framer Motion for adding interactive animations.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup
+To set up the portfolio:
+```
+git clone https://github.com/ge1118/fitclub-gym-website.git
+npm install
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
+The FitClub Gym Website is deployed on Netlify, which is known for its simple setup, excellent performance, and ease of integration with various front-end frameworks like React.js. Deploying on Netlify provides the website with fast loading times and reliable uptime. The process involves linking the GitHub repository to Netlify, which then automatically builds and deploys the site. This setup enables continuous deployment, where updates pushed to the repository are automatically reflected on the live site.
 
-### `npm test`
+Visit the live site: [FitClub Gym Webapp](https://fitclub-gym-webapp.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## References
+This FitClub Gym Website project was primarily developed by following a detailed tutorial on YouTube. The initial codebase was cloned from the [FitClub-Starter repository](https://github.com/ZainRk/FitClub-Starter) by ZainRk on GitHub. While the core structure of the website was guided by the tutorial, I have added my own unique touches to customize the site's features and design.
 
-### `npm run build`
+## Contact
+For questions or feedback, reach out at [leah.kim0118@gmail.com](mailto:leah.kim0118@gmail.com).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+The original project from which this website was derived is under its own license, as detailed in the [FitClub-Starter repository](https://github.com/ZainRk/FitClub-Starter). My contributions to the project, while minor, are subject to the same licensing terms. Please refer to the original repository for detailed licensing information.
